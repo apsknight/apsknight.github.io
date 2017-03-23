@@ -1,0 +1,62 @@
+.profile {
+    border: 5px solid #333;
+    width: 225px;
+    height: 225px;
+    margin: 0 20px 20px 0;
+}
+
+.section-title {
+    font-family : "Acme";
+}
+
+.heading {
+  font-family : "Acme";
+  text-align: center;
+}
+
+.section-header {
+    text-align: center;
+}
+.section-header p {
+    font-size: 1.5em;
+}
+
+.profile-picture {
+    height : 215px;
+    width  : 215px;
+}
+.profile {
+    border-radius: 1000px;
+    border: 5px solid #666666;
+    width: 225px;
+    height: 225px;
+}
+
+.intro {
+  font-family: "Ubuntu";
+  font-size: 1.2em;
+}
+
+.hindi {
+  font-family: "Poppins";
+  font-size: 0.9em;
+}
+
+.twitter-follow-buttom {
+
+}
+
+hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.icon {
+  height: 1em;
+  width: 3em;
+}
+
+.contact {
+  font-size : 1.5em;
+}
