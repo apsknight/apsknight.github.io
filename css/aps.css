@@ -22,14 +22,14 @@
 }
 
 .profile-picture {
-    height : 215px;
-    width  : 215px;
+    height : 250px;
+    width  : 250px;
 }
 .profile {
     border-radius: 1000px;
     border: 5px solid #666666;
-    width: 225px;
-    height: 225px;
+    width: 260px;
+    height: 260px;
 }
 
 .intro {
