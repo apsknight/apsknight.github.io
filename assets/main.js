@@ -46,10 +46,10 @@ $(document).ready(function(){
     myLoop();
     $(".attribute").css("opacity", 1);
   }, 1500);
+
   if($(window).width() >= 1024){
     $(".main-btn").click();
-  }
-
+  };
   $(".main-btn").click(function(){
     $(".main-btn").toggleClass("pulse");
   });
