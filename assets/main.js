@@ -61,4 +61,5 @@ $(document).ready(function(){
     $('.social-icons').append('<li><a class="btn-floating indigo darken-4"><i class="fa fa-steam" href="http://steamcommunity.com/id/amanpratapsingh/" target="_blank"></i></a></li>');
     $(".main-btn").click();
   };
+  console.log("Hey! Buddy, Nice to meet you. If you have reached here I am damn sure that you also belong from programmers fraternity. If you have some projects from me or wanna collaborate or just wanna talk, drop me an mail at aps10@iitbbs.ac.in or call me at +91-8266928969. Have a fantastic day ahead :-)")
 });
