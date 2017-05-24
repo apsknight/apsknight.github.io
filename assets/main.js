@@ -57,7 +57,7 @@ $(document).ready(function(){
 
   if($(window).width() >= 1024){
     $(".main-btn").toggleClass("pulse");
-    $('.social-icons').append('<li><a class="btn-floating" style="background-color: #0077B5;" href="https://www.linkedin.com/in/aman-pratap-singh-06bab5126/" target="_blank"><i class="fa fa-linkedin"></i></a></li>');
+    $('.social-icons').append('<li><a class="btn-floating" style="background-color: #0077B5;" href="https://www.linkedin.com/in/apsknight/" target="_blank"><i class="fa fa-linkedin"></i></a></li>');
     $('.social-icons').append('<li><a class="btn-floating" style="background-color: #02b875;" href="https://medium.com/@amanpratapsingh" target="_blank"><i class="fa fa-medium"></i></a></li>');
     $('.social-icons').append('<li><a class="btn-floating pink darken-2" href="https://www.instagram.com/apsknight" target="_blank"><i class="fa fa-instagram"></i></a></li>');
     $('.social-icons').append('<li><a class="btn-floating indigo darken-4" href="http://steamcommunity.com/id/amanpratapsingh/" target="_blank"><i class="fa fa-steam"></i></a></li>');
