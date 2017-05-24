@@ -1,15 +1,16 @@
 var attribute = ["Aman Pratap Singh",
                  "an Indian",
-                 "a CS undergraduate ",
+                 "native of Shikohabad, UP",
+                 "studying Computer Science",
                  "an IITian",
-                 "a CS:Go Fanatic",
+                 "a CS:GO Fanatic",
                  "a Quoraphile",
                  "an ambivert",
                  "an agnostic",
+                 "a pizza lover",
                  "a programmer",
-                 "eating pizza",
                  "interested in MEAN stack",
-                 "solving Codechef problem"];
+                 ""];
 
 var len = attribute.length;
 
@@ -57,8 +58,8 @@ $(document).ready(function(){
     $(".main-btn").toggleClass("pulse");
     $('.social-icons').append('<li><a class="btn-floating" style="background-color: #0077B5;" href="https://www.linkedin.com/in/aman-pratap-singh-06bab5126/" target="_blank"><i class="fa fa-linkedin"></i></a></li>');
     $('.social-icons').append('<li><a class="btn-floating" style="background-color: #02b875;" href="https://medium.com/@amanpratapsingh" target="_blank"><i class="fa fa-medium"></i></a></li>');
-    $('.social-icons').append('<li><a class="btn-floating pink darken-2"><i class="fa fa-instagram" href="https://www.instagram.com/apsknight" target="_blank"></i></a></li>');
-    $('.social-icons').append('<li><a class="btn-floating indigo darken-4"><i class="fa fa-steam" href="http://steamcommunity.com/id/amanpratapsingh/" target="_blank"></i></a></li>');
+    $('.social-icons').append('<li><a class="btn-floating pink darken-2" href="https://www.instagram.com/apsknight" target="_blank"><i class="fa fa-instagram"></i></a></li>');
+    $('.social-icons').append('<li><a class="btn-floating indigo darken-4" href="http://steamcommunity.com/id/amanpratapsingh/" target="_blank"><i class="fa fa-steam"></i></a></li>');
     $(".main-btn").click();
   };
   console.log("Hey! Buddy, Nice to meet you. If you have reached here I am damn sure that you also belong from programmers fraternity. If you have some projects from me or wanna collaborate or just wanna talk, drop me an mail at aps10@iitbbs.ac.in or call me at +91-8266928969. Have a fantastic day ahead :-)")
