@@ -10,7 +10,7 @@ var attribute = ["Aman Pratap Singh",
                  "a pizza lover",
                  "a programmer",
                  "a web developer",
-                 "a FRIENDS' admire",
+                 "a FRIENDS' admirer",
                  "curious to know you"];
 
 var len = attribute.length;
