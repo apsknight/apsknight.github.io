@@ -9,6 +9,14 @@ main {
   background-color: ;
 }
 
+::selection {
+  background: #ffebee; 
+}
+
+::-moz-selection {
+  background: #ffebee; 
+}
+
 nav ul a {
   color: #ffffff;
 }
