@@ -10,11 +10,11 @@ main {
 }
 
 ::selection {
-  background: #ffebee; 
+  background: #ea3f33; 
 }
 
 ::-moz-selection {
-  background: #ffebee; 
+  background: #ea3f33; 
 }
 
 nav ul a {
