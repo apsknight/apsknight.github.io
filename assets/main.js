@@ -1,17 +1,15 @@
 var attribute = ["Aman Pratap Singh",
                  "an Indian",
-                 "an UPian",
-                 "a CSE Student",
+                 "a CS undergrad",
                  "an IITian",
                  "a CS:GO Fanatic",
                  "a Quoraphile",
                  "an ambivert",
                  "an agnostic",
-                 "a pizza lover",
+                 "a pizzaholic",
                  "a programmer",
-                 "a web developer",
-                 "a FRIENDS' admirer",
-                 "curious to know you"];
+                 "an eternal optimist",
+                 ];
 
 var len = attribute.length;
 
@@ -63,5 +61,5 @@ $(document).ready(function(){
     $('.social-icons').append('<li><a class="btn-floating indigo darken-4" href="http://steamcommunity.com/id/amanpratapsingh/" target="_blank"><i class="fa fa-steam"></i></a></li>');
     $(".main-btn").click();
   };
-  console.log("Hey! Buddy, Nice to meet you. If you have reached here I am damn sure that you also belong from programmers fraternity. If you have some projects from me or wanna collaborate or just wanna talk, drop me an mail at aps10@iitbbs.ac.in or call me at +91-8266928969. Have a fantastic day ahead :-)")
+  console.log("Hey Buddy!!, Glad you reached here. If you have some projects for me or wanna collaborate or just wanna say a hello, drop me a mail at amanpratapsingh@outlook.in")
 });
