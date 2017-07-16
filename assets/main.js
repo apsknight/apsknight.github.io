@@ -8,7 +8,7 @@ var attribute = ["Aman Pratap Singh",
                  "an agnostic",
                  "a pizzaholic",
                  "a programmer",
-                 "an eternal optimist",
+                 "an optimist"
                  ];
 
 var len = attribute.length;
