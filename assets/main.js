@@ -1,13 +1,13 @@
 var attribute = ["Aman Pratap Singh",
                  "an Indian",
-                 "a CS undergrad",
+                 "a CSE undergrad",
                  "an IITian",
                  "a CS:GO Fanatic",
-                 "a Quoraphile",
                  "an ambivert",
                  "an agnostic",
                  "a pizzaholic",
                  "a programmer",
+                 "a gamer",
                  "an optimist"
                  ];
 
