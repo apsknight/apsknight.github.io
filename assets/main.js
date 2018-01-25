@@ -2,6 +2,7 @@ var attribute = ["Aman Pratap Singh",
                  "an Indian",
                  "a CSE undergrad",
                  "an IITian",
+                 "a bibliophile",
                  "a CS:GO Fanatic",
                  "an ambivert",
                  "an agnostic",
@@ -36,7 +37,7 @@ function myLoop () {
 function blink() {
   setInterval(function() {
     $(".cursor").toggleClass('trans');
-  }, 400);
+  }, 500);
 };
 
 $(document).ready(function(){
