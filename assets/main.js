@@ -1,15 +1,12 @@
-var attribute = ["Aman Pratap Singh",
-                 "an Indian",
+var attribute = ["an Indian",
                  "a CSE undergrad",
                  "an IITian",
-                 "a bibliophile",
-                 "a CS:GO Fanatic",
-                 "an ambivert",
-                 "an agnostic",
-                 "a pizzaholic",
                  "a programmer",
-                 "a gamer",
-                 "an optimist"
+                 "a GSoC'18 Student",
+                 "a coffeeholic",
+                 "scrolling twitter",
+                 "rewatching F.R.E.I.N.D.S",
+                 "learning new things..",
                  ];
 
 var len = attribute.length;
