@@ -1,4 +1,3 @@
-<center>
 
 ### Aman Pratap Singh is a computer science graduate from Indian Institute of Technology Bhubaneswar. 
 He is interested in FPS gaming, designing, blogging and cricket.
@@ -10,4 +9,3 @@ Connect with Aman on:
 - [DEV](https://dev.to/apsknight)
 - [Email](mailto:amanprtpsingh@gmail.com)
 
-</center>
