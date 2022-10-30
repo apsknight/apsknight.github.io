@@ -1,7 +1,6 @@
 import { useState } from "react";
 import {
   Text,
-  Avatar,
   Button,
   Center,
   ColorScheme,
@@ -62,12 +61,12 @@ function App() {
         </Group>
         <Container
           sx={{
-            margin: "0px auto",
+            margin: "100px auto",
           }}
         >
           <Center>
             <Stack>
-              <Avatar
+              {/* <Avatar
                 color="cyan"
                 radius="xl"
                 size="xl"
@@ -75,7 +74,7 @@ function App() {
                 sx={{ margin: "auto" }}
               >
                 APS
-              </Avatar>
+              </Avatar> */}
               <Title sx={{ margin: "auto" }} order={1}>
                 Aman Pratap Singh
               </Title>
@@ -85,10 +84,11 @@ function App() {
                 <Tooltip inline label="Software Development Engineer">
                   <Code>SDE-2</Code>
                 </Tooltip>
-                . At work, on a typical day, I mostly work on developing /
-                maintaining microservices (using internal frameworks and
-                serverless AWS technologies), Code and Design Reviews and
-                Operational Excellence (oncalls 🚨).
+                . I joined Amazon in July 2020 as a SDE-1 and was later promoted
+                to the role of SDE-2. At work, on a typical day, I mostly work
+                on developing / maintaining microservices (using internal
+                frameworks and serverless AWS technologies), Code and Design
+                Reviews and Operational Excellence (oncalls 🚨).
               </Text>
               <Text>
                 {" "}
@@ -132,8 +132,9 @@ function App() {
                 bikeriding and watching cricket in my leisure time. I am also
                 training to complete C25K challenge and want to participate in a
                 marathon someday. My hometown is at a town called Shikohabad
-                which is near Agra in Uttar Pradesh. However, I currently live
-                and work at Bangalore, Karnataka. For more, you may follow me on
+                which is situated near Agra in Uttar Pradesh. However, I
+                currently live and work at Bangalore, Karnataka. For more, you
+                may follow me on
               </Text>
               <SimpleGrid
                 cols={6}
