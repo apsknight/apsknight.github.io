@@ -24,12 +24,11 @@ import {
   IconBrandLinkedin,
   IconBrandMedium,
   IconBrandGithub,
-  IconCalendarEvent,
   IconMail,
 } from "@tabler/icons";
 
 function App() {
-  const [colorScheme, setColorScheme] = useState<ColorScheme>("light");
+  const [colorScheme, setColorScheme] = useState<ColorScheme>("dark");
   const toggleColorScheme = (value?: ColorScheme) =>
     setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
   const theme = useMantineTheme();
@@ -61,7 +60,7 @@ function App() {
         </Group>
         <Container
           sx={{
-            margin: "100px auto",
+            margin: "60px auto",
           }}
         >
           <Center>
@@ -79,20 +78,22 @@ function App() {
                 Aman Pratap Singh
               </Title>
               <Text mt="md">
-                👋 Hello there! I am currently working at Amazon in Seller
-                Fulfillment Tech org as a{" "}
+                👋 Hello there! Welcome to my personal space on Internet! My
+                name is Aman and I work at Amazon in the Seller Fulfillment Tech
+                org as a{" "}
                 <Tooltip inline label="Software Development Engineer">
                   <Code>SDE-2</Code>
                 </Tooltip>
                 . I joined Amazon in July 2020 as a SDE-1 and was later promoted
-                to the role of SDE-2. At work, on a typical day, I mostly work
-                on developing / maintaining microservices (using internal
-                frameworks and serverless AWS technologies), Code and Design
-                Reviews and Operational Excellence (oncalls 🚨).
+                to this role. In my day-to-day work, I focus on developing and
+                maintaining microservices using internal frameworks and
+                serverless AWS technologies, participating in code and design
+                reviews, and working on operational excellence tasks such as
+                on-call duty 🚨.
               </Text>
               <Text>
                 {" "}
-                I graduated from{" "}
+                I graduated from the{" "}
                 <Anchor
                   href="https://www.iitbbs.ac.in"
                   target="_blank"
@@ -101,8 +102,11 @@ function App() {
                 >
                   Indian Institute of Technology, Bhubaneswar
                 </Anchor>{" "}
-                with a B.Tech degree in Computer Science and Engineering in
-                2020. I successfully completed a project for CERN-HSF on{" "}
+                in 2020 with a B.Tech in Computer Science and Engineering.
+                During my time in college, I was fortunate to participate in a
+                number of exciting projects and competitions. One of my most
+                notable experiences was being selected as a Google Summer of
+                Code student in 2018 and working on a project for CERN-HSF on{" "}
                 <Anchor
                   href="https://summerofcode.withgoogle.com/archive/2018/projects/4671150864990208"
                   target="_blank"
@@ -111,33 +115,32 @@ function App() {
                 >
                   Large Scale Batch Computing Orchestration and Visualization
                   through Jupyter Notebook
-                </Anchor>{" "}
-                as a Google Summer of Code student in 2018. During college, I
-                along with my amazing team, participated and won at{" "}
+                </Anchor>
+                . Additionally, I and{" "}
                 <Anchor
-                  href="https://www.sih.gov.in/"
+                  href="https://twitter.com/apsknight_/status/1102099261716520960?s=20"
                   target="_blank"
                   underline
                   variant="text"
                 >
-                  Smart India Hackathon
-                </Anchor>
-                {"(first prize) "}
-                and Inter IIT Tech Meet(third prize).
+                  my team
+                </Anchor>{" "}
+                participated in and won the Smart India Hackathon (first prize)
+                and the Inter IIT Tech Meet (third prize).
               </Text>
               <Text>
-                I am interested in distributed systems and serverless
-                technologies. Recently, I am also learning Rust, TypeScript,
-                React and few other frontend things. I like playing badminton,
-                bikeriding and watching cricket in my leisure time. I am also
-                training to complete C25K challenge and want to participate in a
-                marathon someday. My hometown is at a town called Shikohabad
-                which is situated near Agra in Uttar Pradesh. However, I
-                currently live and work at Bangalore, Karnataka. For more, you
-                may follow me on
+                My interests lie primarily in the areas of distributed systems
+                and serverless technologies. I am also currently working on
+                learning Rust, TypeScript, React and other frontend
+                technologies. In my spare time, I enjoy playing badminton, going
+                on bike rides and watching cricket. I am also training to
+                complete the C25K challenge with the goal of participating in a
+                marathon someday. I am originally from Shikohabad, a town near
+                Agra in Uttar Pradesh, but currently live and work in Bangalore,
+                Karnataka. For more, you may follow me on
               </Text>
               <SimpleGrid
-                cols={6}
+                cols={5}
                 breakpoints={[
                   { maxWidth: 980, cols: 3, spacing: "md" },
                   { maxWidth: 755, cols: 2, spacing: "sm" },
@@ -193,16 +196,6 @@ function App() {
                   leftIcon={<IconMail />}
                 >
                   Email me!
-                </Button>
-                <Button
-                  component="a"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://calendly.com/amanpratapsingh/30min"
-                  variant="default"
-                  leftIcon={<IconCalendarEvent />}
-                >
-                  Calendly
                 </Button>
               </SimpleGrid>
             </Stack>
